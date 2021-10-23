@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- PROJECT 1 -->
+  <div class="container-1">
+    <h2>Projet-1:Age In Dayes</h2>
+    <div class="flex-box-container-1">
+      <button type="button" class="btn btn-primary" onclick="myFunction()">Cick Me</button>
+      <button type="button" class="btn btn-danger" onclick="reset()">Reset</button>
+    </div>
+    <div>
+      <h1 id="age-indayes"></h1>
+    </div>
+  </div>
+  
+  <!-- PROJECT 2 -->
+  <div class="container-2">
+    <h2>Project-2:Cat Genaretor</h2>
+     <button type="button" class="btn btn-success" onclick="genaretCat()">Genaret Cat</button>
+    <div class="flex-box-container-2" id="flex-cat-gen">
+    </div>
+  </div>
+  
+  <!-- PROJECT 3 -->  
+  
+  <div class="conatiner-3">
+    <h2>Project-3:Rock,Pepper,Scisseor</h2>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+      <img class="mt-5"  id="rock" src="Rock.png" alt="" height="150px" width="150px" onclick="rpsGame(this)"/>
+      <img class="mt-5" id="pepper" src="Pepper.png" alt="" height="150px" width="150px"  onclick="rpsGame(this)"/>
+      <img class="mt-5"  id="scisseor" src="Scisseor.png" alt="" height="150px" width="150px"  onclick="rpsGame(this)"/>
+    </div>
+  </div>
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+  <!-- My script -->
+  <script src="main.js" type="text/javascript" charset="utf-8">
+    
+  </script>
+</body>
+</html>

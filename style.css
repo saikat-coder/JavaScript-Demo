@@ -1,0 +1,28 @@
+body{
+  margin-top:10px; 
+}
+  
+
+.container-1 , .container-2 , .conatiner-3{
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-box-container-1 , .flex-box-container-2 , .flex-box-rps{
+  display: flex;
+  border:1px solid black;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+#flex-cat-gen img{
+  margin-top: 10px;
+  box-shadow: 0px ,10px 50px rgba(0,0,0,0.7);
+}
+
+#flex-box-rps-div img:hover{
+  box-shadow: 0px ,10px 50px rgba(37,50,233,17);
+}
